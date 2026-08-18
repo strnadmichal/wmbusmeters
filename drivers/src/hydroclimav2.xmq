@@ -72,7 +72,7 @@ driver {
                     test  = Set
                 }
                 map {
-                    name  = OPEN_CASE
+                    name  = TAMPERING
                     value = 0x0100
                     test  = Set
                 }
