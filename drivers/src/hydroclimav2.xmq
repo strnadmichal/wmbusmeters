@@ -310,8 +310,8 @@ driver {
             comment  = 'Version 0x53 frame_v10 NOKEY'
             args     = 'HCA hydroclimav2 68036198 NOKEY'
             telegram = 2e44b0099861036853087a000020002F2F036E0000000F100043106A7D2C4A078F12202CB1242A06D3062100210000
-            json     = '{"_":"telegram","media":"heat cost allocation","meter":"hydroclimav2","name":"HCA","id":"68036198","average_ambient_temperature_c":18.66,"average_ambient_temperature_last_month_c":15.78,"average_heater_temperature_last_month_c":17.47,"consumption_hca":0,"max_ambient_temperature_c":47.51,"total_consumption_hca":33,"status":"ERROR_FLAGS_4000 OPEN_CASE TEMPERATURE_OUT_OF_RANGE","timestamp":"1111-11-11T11:11:11Z"}'
-            fields   = 'HCA;68036198;ERROR_FLAGS_4000 OPEN_CASE TEMPERATURE_OUT_OF_RANGE;0;18.66;1111-11-11 11:11.11'
+            json     = '{"_":"telegram","media":"heat cost allocation","meter":"hydroclimav2","name":"HCA","id":"68036198","average_ambient_temperature_c":18.66,"average_ambient_temperature_last_month_c":15.78,"average_heater_temperature_last_month_c":17.47,"consumption_hca":0,"max_ambient_temperature_c":47.51,"total_consumption_hca":33,"status":"ERROR_FLAGS_4000 HEATER_TEMPERATURE_OUT_OF_RANGE TAMPERING","timestamp":"1111-11-11T11:11:11Z"}'
+            fields   = 'HCA;68036198;ERROR_FLAGS_4000 HEATER_TEMPERATURE_OUT_OF_RANGE TAMPERING;0;18.66;1111-11-11 11:11.11'
         }
         test {
             comment  = 'Version 0x85 frame_v11 encrypted'
