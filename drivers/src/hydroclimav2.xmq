@@ -57,7 +57,7 @@ driver {
                 // STS status word bits per the Hydroclima 2 user manual v1.1
                 // (Alarms table): events A0, A1, B8, C9, C10, C11, C13 and
                 // C15 are bit positions in this word. Bits 2-7, 12 and 14 are
-                // not documented and stay unnamed. OPEN_CASE latches until a
+                // not documented and stay unnamed. TAMPERING latches until a
                 // seal is applied after configuration; NOT_CONFIGURED clears
                 // after configuration; OSCILLATOR_ERROR clears after a
                 // date/time update.
