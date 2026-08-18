@@ -77,7 +77,7 @@ driver {
                     test  = Set
                 }
                 map {
-                    name  = TEMPERATURE_OUT_OF_RANGE
+                    name  = HEATER_TEMPERATURE_OUT_OF_RANGE
                     value = 0x0200
                     test  = Set
                 }
