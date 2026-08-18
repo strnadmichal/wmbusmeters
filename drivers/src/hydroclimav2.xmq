@@ -82,7 +82,7 @@ driver {
                     test  = Set
                 }
                 map {
-                    name  = RADIATOR_TEMPERATURE_LOW
+                    name  = HEATER_TEMPERATURE_LOW
                     value = 0x0400
                     test  = Set
                 }
